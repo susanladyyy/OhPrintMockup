@@ -1,0 +1,68 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  background-color: white;
+  border-radius: 20px;
+  margin: 6% 25% 5em 25%;
+  filter: drop-shadow(0px 0px 15px rgba(69, 69, 69, 0.477));
+}
+.logo {
+  height: 15em;
+  border-radius: 25px;
+  margin-top: 5%;
+  margin-bottom: -8%;
+}
+
+.email-label, .pass-label{
+  text-align: left;
+  font-weight: bold;
+  font-size: larger;
+}
+
+/* Styling tambahan untuk input fields agar terlihat rapi */
+.email-input, .pass-input {
+  margin-bottom: 1em; 
+  width: 100%; 
+  text-align: center; 
+}
+
+.email-input input, .pass-input input {
+  width: 100%; /* Lebar input field */
+  padding: 0.5em;
+  height: 2em;
+  border: 1px rgba(172, 172, 172, 0.715) solid;
+  border-radius: 20px;
+  font-size: medium;
+  background-color: transparent;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 5em 5% 5em 5%;
+  display: flex-col;
+  align-items: center;
+  justify-content: center;
+}
+
+.read-the-docs {
+  color: #888;
+}
