@@ -118,6 +118,9 @@ function Login() {
                 <input type="password" name="" id="" />
               </div>
             </div>
+            <div className="submit-button">
+              <button type="submit">Login</button>
+            </div>
           </div>
           <p className="read-the-docs">
             Click on the Vite and React logos to learn more

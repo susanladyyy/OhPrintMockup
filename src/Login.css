@@ -31,6 +31,15 @@
   text-align: center; 
 }
 
+.submit-button button {
+  padding: 0.8em 5em 0.8em 5em;
+  font-size: larger;
+  background-color: #f8951e;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+}
+
 .email-input input, .pass-input input {
   width: 100%; /* Lebar input field */
   padding: 0.5em;
