@@ -21,7 +21,7 @@
 
 .menu-list > li > a {
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: larger;
 }
 
@@ -50,5 +50,35 @@
     font-size: larger;
     border: none;
     color: white;
+    cursor: pointer;
+}
+
+.login-reg {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5px;
+}
+
+.login-button {
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #fd8b00;
+    filter: drop-shadow(0px 0px 8px rgba(69, 69, 69, 0.477));
+    border: none;
+    font-size: larger;
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.reg-button {
+    padding: 10px;
+    border-radius: 25px;
+    background-color: white;
+    filter: drop-shadow(0px 0px 8px rgba(69, 69, 69, 0.477));
+    border: none;
+    font-size: larger;
+    color: #fd8b00;
     cursor: pointer;
 }

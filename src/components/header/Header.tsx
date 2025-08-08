@@ -20,6 +20,14 @@ export class Header extends Component {
                     <FaSearch />
                 </button>
             </div>
+            {/* <div className="login-reg">
+                <button className="login-button">
+                    Sign In
+                </button>
+                <button className="reg-button">
+                    Sign Up
+                </button>
+            </div> */}
         </header>
     )
   }
